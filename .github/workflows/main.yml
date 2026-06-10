@@ -2,7 +2,7 @@ name: "Hello-world"
 on: push
 jobs:
   my-job:
-   runs-on: : uduntu-latest
+   runs-on: ubuntu-latest
    steps:
     - name: my-step
       run: echo "Theres a change in the current version of the build"
